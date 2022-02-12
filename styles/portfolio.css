@@ -19,7 +19,7 @@ body {
 
 .hero {
 	height: 900px;
-	background: center / contain url("/src/woman-bg-bw-2x.png");
+	background: center / contain url("/src/images/woman-bg-bw-2x.png");
 	/* margin: 158px auto; */
 	padding: 300px 20px;
 }
@@ -74,3 +74,22 @@ body {
 	text-transform: uppercase;
 	vertical-align: top;
 }
+
+.image-row {
+	max-width: 1152px;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	gap: 40px 40px;
+}
+
+img {
+	max-height: 280px;
+}
+
+/* 
+
+
+.image-rows img {
+	max-height: 280px;
+} */
