@@ -15,8 +15,7 @@ body {
 	height: 900px;
 	background: center / contain no-repeat url("/src/images/woman-bg-bw-2x.png");
 	/* margin: 158px auto; */
-	/* margin: 0 auto;
-  */
+	/* margin: 0 auto; */
 	padding: 300px 20px;
 	margin: 0 auto;
 }
@@ -70,7 +69,6 @@ body {
 .image-container {
 	max-width: 1152px;
 	margin: 0 auto;
-	border: 1px solid yellow;
 }
 
 @media screen and (max-width: 576px) {
