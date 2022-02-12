@@ -4,14 +4,8 @@
 }
 
 body {
-	/* font-family: "Roboto", sans-serif; */
 	background: #1b1b1b;
 }
-/* FFFFFF
-1B1B1B
-202020
-272142
-282323 */
 
 /* .header {
 	height: 118px;
@@ -19,14 +13,12 @@ body {
 
 .hero {
 	height: 900px;
-	background: center / contain url("/src/images/woman-bg-bw-2x.png");
+	background: center / contain no-repeat url("/src/images/woman-bg-bw-2x.png");
 	/* margin: 158px auto; */
+	/* margin: 0 auto;
+  */
 	padding: 300px 20px;
-}
-
-.caption {
-	/* margin: 158px auto; */
-	/* width: 595px; */
+	margin: 0 auto;
 }
 
 .hero h1,
@@ -75,21 +67,36 @@ body {
 	vertical-align: top;
 }
 
-.image-row {
+.image-container {
 	max-width: 1152px;
 	margin: 0 auto;
-	padding: 0;
-	display: flex;
-	gap: 40px 40px;
+	border: 1px solid yellow;
 }
 
-img {
-	max-height: 280px;
+@media screen and (max-width: 576px) {
+	.hero {
+		background: url("/src/images/woman-bg-bw-2x.png");
+		background-position: top;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 80vh;
+	}
+
+	.hero h1 {
+		margin-bottom: 5px;
+	}
+
+	.hero h2 {
+		font-size: 28px;
+		margin-bottom: 8px;
+	}
+
+	.hero p {
+		margin-top: 12px;
+	}
+
+	img {
+		min-width: 98% vh;
+		margin: 0 auto;
+	}
 }
-
-/* 
-
-
-.image-rows img {
-	max-height: 280px;
-} */
