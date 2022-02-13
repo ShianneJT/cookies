@@ -3,13 +3,14 @@
 	--primary-font: "Roboto", sans-serif;
 }
 
+html,
 body {
+	overflow-x: hidden;
+}
+body {
+	position: relative;
 	background: #1b1b1b;
 }
-
-/* .header {
-	height: 118px;
-} */
 
 .hero {
 	height: 900px;
