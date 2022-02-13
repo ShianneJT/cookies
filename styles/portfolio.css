@@ -15,8 +15,6 @@ body {
 .hero {
 	height: 900px;
 	background: center / contain no-repeat url("/src/images/woman-bg-bw-2x.png");
-	/* margin: 158px auto; */
-	/* margin: 0 auto; */
 	padding: 300px 20px;
 	margin: 0 auto;
 }
@@ -95,6 +93,7 @@ body {
 	}
 
 	img {
+		padding: 10px;
 		min-width: 98% vh;
 		margin: 0 auto;
 	}
