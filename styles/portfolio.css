@@ -1,7 +1,70 @@
+/* Fonts */
+/* 
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+*/
 :root {
-	--primary-color: #ffffff;
-	--primary-font: "Roboto", sans-serif;
+	--primary-color: #6c63ff;
+	--secondary-color: #f9f7fe;
+	--heading-font-family: "Playfair Display", serif;
+	--default-font-family: "Poppins", sans-serif;
 }
+
+body {
+	font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: black;
+	font-family: var(--heading-font-family);
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 96px;
+}
+
+p {
+	font-weight: normal;
+}
+
+.hero {
+	background: var(--secondary-color);
+	text-align: center;
+	padding: 160px 0;
+}
+
+.hero h2 {
+	font-family: var(--default-font-family);
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 2;
+	color: #272142;
+}
+
+.hero p {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	color: #272142;
+}
+
+.btn-branding {
+	background: var(--primary-color);
+	color: white;
+	font-size: 18px;
+	line-height: 27px;
+	padding: 15px 30px;
+	border-radius: 4px;
+}
+
+/* 
+
 
 html,
 body {
@@ -12,16 +75,16 @@ body {
 	background: #1b1b1b;
 }
 
-.hero {
+.homepage .hero {
 	height: 900px;
 	background: center / contain no-repeat url("/src/images/woman-bg-bw-2x.png");
 	padding: 300px 20px;
 	margin: 0 auto;
 }
 
-.hero h1,
-.hero h2,
-.hero p {
+.homepage .hero h1,
+.homepage .hero h2,
+.homepage .hero p {
 	color: var(--primary-color);
 	font-family: var(--primary-font);
 	text-align: center;
@@ -65,6 +128,16 @@ body {
 	vertical-align: top;
 }
 
+.caption {
+	padding: 50px 40px;
+	font-family: var(--primary-font);
+}
+
+.secondary-text {
+	color: var(--secondary-color);
+	font-size: 18px;
+}
+
 .image-container {
 	max-width: 1152px;
 	margin: 0 auto;
@@ -97,4 +170,4 @@ body {
 		min-width: 98% vh;
 		margin: 0 auto;
 	}
-}
+} */
